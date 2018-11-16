@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexerWF", "LexerWF\LexerWF.csproj", "{DAAAE885-2937-4096-B04B-35BA31B7A828}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compiler", "LexerWF\Compiler.csproj", "{DAAAE885-2937-4096-B04B-35BA31B7A828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

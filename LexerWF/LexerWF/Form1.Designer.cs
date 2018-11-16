@@ -1,4 +1,4 @@
-﻿namespace LexerWF
+﻿namespace Compiler
 {
     partial class Form1
     {

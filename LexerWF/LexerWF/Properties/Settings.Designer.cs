@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LexerWF.Properties
+namespace Compiler.Properties
 {
 
 
