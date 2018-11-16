@@ -38,21 +38,21 @@
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(621, 734);
+            this.textBox1.Size = new System.Drawing.Size(621, 442);
             this.textBox1.TabIndex = 0;
             // 
             // listView1
             // 
             this.listView1.Location = new System.Drawing.Point(639, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(235, 734);
+            this.listView1.Size = new System.Drawing.Size(235, 442);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.List;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 754);
+            this.button1.Location = new System.Drawing.Point(12, 460);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 789);
+            this.ClientSize = new System.Drawing.Size(886, 749);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox1);
