@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace Compiler.Parser
 {
@@ -37,6 +38,20 @@ namespace Compiler.Parser
             return tree;
         }
 
+        /// <summary>
+        /// Check if is variable name, number <see cref="int"/> or <see cref="float"/>
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        public bool IsTerminal(string token)
+        {
+            Regex variableName = new Regex(@"[a-zA-Z_][a-zA-Z0-9]+");
+            Regex intNumber = new Regex(@"[-+]?[0-9]*");
+            Regex floatNumber = new Regex(@"[-+]?[0-9]*\.?[0-9]+");
+
+            return variableName.Match(token).Success || intNumber.Match(token).Success ||
+                floatNumber.Match(token).Success;
+        }
         
     }
 }
